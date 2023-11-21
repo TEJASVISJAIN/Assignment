@@ -11,12 +11,18 @@ export const useInvoiceListData = () => {
       ) || null
     );
   };
+  const getAllInvoice = () => {
+    return (
+      invoiceList || null
+    );
+  };
 
   const listSize = invoiceList.length;
 
   return {
     invoiceList,
     getOneInvoice,
+    getAllInvoice,
     listSize,
   };
 };

@@ -43,6 +43,10 @@ const InvoiceList = () => {
                   <Button variant="primary mb-2 mb-md-4">Create Invoice</Button>
                 </Link>
 
+                <Link to="/Bulk">
+                  <Button variant="primary mb-2 mb-md-4">Edit Bulk Invoices</Button>
+                </Link>
+
                 <div className="d-flex gap-2">
                   <Button variant="dark mb-2 mb-md-4" onClick={handleCopyClick}>
                     Copy Invoice
